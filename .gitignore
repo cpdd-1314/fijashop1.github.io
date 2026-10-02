@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno / secretos
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Base de datos en runtime (opcional: descomenta si no quieres versionar db.json)
+# data/db.json
